@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Century Gothic";
+}
+
+body {
+  background-color: white;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #a2d3fa;
+  height: 3em;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  background-color: #181515;
+  height: 4em;
+}
+
+nav li {
+  display: inline-block;
+  float: right;
+}
+
+nav li a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  padding: 20px 30px;
+  width: 100%;
+  margin: auto;
+}
+
+.activo {
+  background-color: white;
+  color: black;
+}
+
+nav li a:hover {
+  background-color: white;
+  color: black;
+}
+
+.contenedor-logo {
+  background-color: lightblue;
+}
+
+.logo {
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+}
+
+hr {
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+main {
+  white-space: nowrap;
+}
+
+.articulo-principal,
+.aside-principal {
+  border: 1px solid black;
+  display: inline-block;
+  margin-top: 30px;
+  height: 30em;
+}
+
+article section {
+  background-color: silver;
+  margin: 20px auto;
+  width: 75%;
+  height: 75%;
+}
+
+form {
+  margin: 25px auto;
+  width: 75%;
+  background-color: white;
+}
+
+label {
+  margin-left: 25%;
+}
+
+input[type="text"] {
+  border-radius: 20px;
+  width: 300px;
+  border: 1px solid black;
+  display: block;
+  margin-top: 10px;
+  margin-left: 25%;
+}
+
+input[type="text"]:focus {
+  border: 5px solid lightblue;
+}
+
+h2 {
+  text-align: center;
+}
+
+.articulo-principal {
+  width: 73%;
+}
+
+.aside-principal {
+  width: 25%;
+  float: right;
+}
+
+aside ul {
+  list-style-type: none;
+}
+
+aside ul li {
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
+aside ul li span {
+  background-color: black;
+  color: white;
+  height: 4em;
+}
+
+.contenedor-caja {
+  margin-top: 30px;
+  white-space: nowrap;
+}
+
+.contenedor-caja img {
+  display: block;
+  margin: 3% auto;
+}
+
+.contenedor-caja img:hover {
+  border-radius: 50%;
+}
+
+.caja1,
+.caja2,
+.caja3 {
+  display: inline-block;
+  border: 1px solid black;
+  width: 33%;
+  height: 15em;
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #181515;
+  color: white;
+  text-align: center;
+  height: 5em;
+}
